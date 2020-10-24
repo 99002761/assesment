@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/mainstyle.css">
+    <title>User Registration</title>
+</head>
+<body>
+    <section>
+        <h2 class="subheading">web forms</h2>
+    </section>
+    <div>
+    <section>
+        <form>
+            <p>enter the name:<input type="text" placeholder="enter the name" id="username"/> </p>
+            <p>enter the email:<input type="email" placeholder="enter the email" id="useremail"/></p>
+            <p>enter the date-of-birth:<input type="date" placeholder="enter the date og birth" id="userdob"/> </p>
+            <p>enter the contact number:<input type="tel" placeholder="enter the number" id="usernum"/> </p>
+            <P>enter address
+                <textarea id="useraddress">
+            </textarea>
+            </p>
+            <p> cities
+               
+                <datalist id="liststates">
+                    <option>Telangana</option>
+                    <option>Andrapradesh</option>
+                    <option>mumbai</option>
+                    <option>mysuru</option>
+                    <option>peddapali</option>
+                </datalist>
+           
+            </p>
+            <input type="name" placeholder="select cities" list="liststates"/>
+            <p>
+            select qualifications:<br/>
+            <select id="educationalqualifications">
+                <option>graduation</option>
+                <option>ssc</option>
+                <option>inter</option>
+            </select>
+             </p>
+             <p>Gender:
+                 <input type="radio" name="gender">female
+             <input type="radio" name="gender">male
+             <input type="radio" name="gender">other
+            
+            <p>
+                other specialization:
+                <input type="checkbox">web development
+                <input type="checkbox">core java
+                <input type="checkbox">python
+            </p>
+            <p> rate urself:
+                <input type="range" min="1" max="10" step="1"/>
+            </p>
+
+        
+             <button type="button">register</button>
+        
+             <footer>
+                <hr/>
+                <i>&copy;copyrights:shravani.inc-2020</i>
+                </footer>
+        
+        
+        </form>
+    </section>
+</div>
+</body>
+</html>

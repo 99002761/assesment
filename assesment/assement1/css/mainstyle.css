@@ -1,0 +1,63 @@
+*{
+    font-size: 18pt;
+    font-family: 'Courier New', Courier, monospace;
+    background-color:lightcyan;
+}
+.heading{
+    border: 5px solid pink;
+    text-align: center;
+    font-weight: bold;
+    color:gold;
+}
+.subheading{
+    text-align: center;
+    color:purple;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    font-size: 24pt;
+}
+.footer{
+    width: 80%;
+    bottom: 0px;
+    position: fixed;
+    text-align: center;
+    margin-left: 250px;
+}
+.block{
+    width: 30%;
+    display: inline-block;
+    padding: 20px;
+    margin: 5px;
+    border: 1px solid;
+    box-shadow: 5px 10px 10px orange;
+    text-shadow: 3px 3px 5px pink;
+
+}
+#init{
+    
+    box-shadow: 5px 10px 10px orange inset;
+}
+input,select,textarea{
+    padding: 5px;
+    border: 2px solid;
+    border-radius:5px ;
+    color:red;
+    margin: 5px;
+
+}
+button{
+    padding: 10px;
+    background-color:pink;
+    height:70px;
+    width: 200px;
+    margin-left: 250px;
+    border-radius: 3px;
+
+}
+
+section{
+    display: block;
+}
+div{
+    text-align:center;
+}
